@@ -1,0 +1,20 @@
+id;name;value;unit;description
+1;n_bact;1.00E+04;1;Number of E. Coli bacteria simulated
+2;steps;5.00E+02;1;Number of timesteps
+3;dt;1.00E+00;s;Timestep
+4;save_intervall;1.00E+00;1;After every x steps, the positions are written in the output file
+5;CheA;5.30E+00;µM;
+6;CheY;9.70E+00;;
+7;CheB;0.28;;
+8;CheR;1.60E-01;;
+9;CheZ;3.80E+00;;
+10;kA;5.00E+01;;
+11;kY;1.00E+02;;maybe 45.05? 100
+12;kZ;7.89E+00;;
+13;gamY ;1.00E-01;;
+14;kB_prime;3.00E+00;;
+15;gamB;1.00E+00;;
+16;kR;3.90E-01;;
+17;KR;9.90E-02;;
+18;kB ;6.30E+00;;
+19;KB;2.50E+00;;

@@ -1,0 +1,33 @@
+id;name;value;unit;description
+1;n_bact;1;1;Number of E. Coli bacteria simulated
+2;steps;1.00E+06;1;Number of timesteps
+3;box_x;30000;�m;Elongation of Simulation box in x-direciton
+4;box_y;20000;�m;Elongation of Simulation box in y-direciton
+5;t0;0.77;s;Timescale of motor switching
+6;dt;1.00E-03;s;Timestep
+7;grad_type;0;1;Type of gradient-function. Possible: 0 exp, 1 lin
+8;grad_x0;7.50E-04;1;Gradient parameters, used in code to define gradient
+9;grad_x1;1.00E-04;1;
+10;grad_x2;-2500;1;
+11;grad_x3;0;1;
+12;v0;11.81;�m/s;Velocity of run-state
+13;gam;0.5;1;Gamma in : e(m) = 1-gamma*m
+14;gam_R;0.0069;1/s;Rate of methylation in dm/dt, actually = 0.0069
+15;gam_B;0.12;1/s;Rate of demethylation in dm/dt, act = 0.12
+16;K_off_tsr;1.00E+02;mM;Dissociation constant for off-state of receptor Tsr
+17;K_on_tsr;1.00E+06;mM;Dissociation constant for on-state of receptor Tsr
+18;K_off_tar;0.03;mM;Dissociation constant for off-state of receptor Tar
+19;K_on_tar;1;mM;Dissociation constant for on-state of receptor Tar
+20;v_tsr;0.66;1;Fraction of Tsr receptors
+21;v_tar;0.34;1;Fraction of Tar receptors
+22;kY;4.51E+01;1/(�M*s);Phosphorylation rate of Yp
+23;kZ;30;1/(Z_tot*s);De-Phosphorylation rate of Yp
+24;gam_Y;0.1;1;Degradation rate of Yp
+25;Y_tot;7.90E+00;�M;Total Concentration of CheY
+26;Z_tot;1.00E+00;Z_tot;Total Concentration of CheZ, look at kZ unit
+27;save_intervall;1.00E+02;1;After every x steps, the positions are written in the output file
+28;n_recep;1.30E+01;1;Number of receptors in a cluster
+29;M;3.00E+00;1;Number of motors
+30;tr;0.911538462;s;not needed atm
+31;Dr;6.20E-02;rad^2/s;Rotational Diffusion constant, actually = 0.062
+32;Dr;6.20E-02;rad/s;Rotational Diffusion constant, actually = 0.062
